@@ -55,4 +55,23 @@ Random Forest was the main model, and its hyperparameters were adjusted to evalu
 | Accuracy | 0.7672 | 0.7706 |
 | Precision | 0.7214 | 0.7218 |
 | Recall | 0.6802 | 0.6794 |
-| F1-Score | 0.691
+| F1-Score | 0.6916 | 0.6902 |
+
+## 6. Model Evaluation
+The models were evaluated using:
+- Accuracy, Precision, Recall, and F1-Score.
+- Confusion Matrix.
+- ROC Curve.
+- Precision-Recall Curve.
+- 5-Fold Cross-Validation.
+- Feature Importance.
+
+## 7. Tools and Libraries
+- Python
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## 8. Conclusion
+The results show that Random Forest achieved the highest F1-Score among the compared models. The project demonstrates the use of machine learning techniques for multi-class classification of student academic outcomes.
