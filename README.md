@@ -11,7 +11,9 @@ The goal is to classify students into three categories:
 The main algorithm used is **Random Forest**, with other machine learning models used for comparison.
 
 ## 2. Dataset Information
-The project uses the **Predict Students' Dropout and Academic Success** dataset.
+The project uses the **Predict Students' Dropout and Academic Success** dataset from the UCI Machine Learning Repository.
+
+**Dataset Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 | Description | Value |
 |---|---:|
@@ -24,7 +26,7 @@ The project uses the **Predict Students' Dropout and Academic Success** dataset.
 ## 3. Data Analysis and Preparation
 Exploratory Data Analysis (EDA) was performed to understand the dataset and identify important patterns.
 
-The preparation and analysis included:
+The analysis included:
 - Checking missing values and duplicate records.
 - Analyzing target class distribution.
 - Exploring dataset features.
@@ -53,23 +55,4 @@ Random Forest was the main model, and its hyperparameters were adjusted to evalu
 | Accuracy | 0.7672 | 0.7706 |
 | Precision | 0.7214 | 0.7218 |
 | Recall | 0.6802 | 0.6794 |
-| F1-Score | 0.6916 | 0.6902 |
-
-## 6. Model Evaluation
-The models were evaluated using:
-- Accuracy, Precision, Recall, and F1-Score.
-- Confusion Matrix.
-- ROC Curve.
-- Precision-Recall Curve.
-- 5-Fold Cross-Validation.
-- Feature Importance.
-
-## 7. Tools and Libraries
-- Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
-## 8. Conclusion
-The results show that Random Forest achieved the highest F1-Score among the compared models. The project demonstrates the use of machine learning techniques for multi-class classification of student academic outcomes.
+| F1-Score | 0.691
